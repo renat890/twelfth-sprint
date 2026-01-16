@@ -1,12 +1,7 @@
 ---
 name: Twelfth Sprint
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: push
+
 jobs:
   check-work:
     name: Check errors and tests
